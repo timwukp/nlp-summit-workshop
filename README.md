@@ -12,6 +12,6 @@ Pre-requirments.
 2. Download new API Token file (kaggle.json) in your local, and upload into your notebook.Please refer the doc. https://github.com/Kaggle/kaggle-api
 
 
-In doing so, the notebook will first train a Hugging Face model using the Hugging Face Estimator in the SageMaker Python SDK using training dataset, then use SageMaker Clarify to analyze a testing dataset in CSV format, and then visualize the results.
-ml
+The notebook will first train a Hugging Face model using the Hugging Face Estimator in the SageMaker Python SDK using training dataset, then use SageMaker Clarify to analyze a testing dataset in CSV format, and then visualize the results.
+
 For Hugging face model training and endpoint, it need AWS SageMaker GPU instacnes. E.g. for training, ml.p3.2xlarge, for endpoint ml.g4dn.xlarge
